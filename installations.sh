@@ -13,3 +13,5 @@ echo set autoindent > $VIMRC
 # bash_profile
 touch ~/.bash_profile
 sed 's/user_name/'"$USER"'/g' bash_template.sh > ~/.bash_profile
+
+
