@@ -1,8 +1,11 @@
+# todo: add conditionals for mac and linux
 sudo apt-get -y install git vim-gtk
 # python tools
 sudo apt-get -y install python 3.6.5
 sudo apt-get -y install python-virtualenv
 sudo apt-get -y install python3-pip
+# terminal for ubuntu
+sudo apt-get -y install terminator guake
 # configurations
 #vimrc
 VIMRC=~/.vimrc
