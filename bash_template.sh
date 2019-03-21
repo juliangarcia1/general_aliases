@@ -24,3 +24,5 @@
  alias ls='ls -GFh'
  
  export PATH=$PATH:$HOME/Library/Python/3.7/bin/
+
+alias c-comp-run='function _comp_run(){ gcc "$1" -o "${1%.*}".out;./"${1%.*}".out;echo ""; }; _comp_run'
