@@ -17,3 +17,5 @@ echo set autoindent > $VIMRC
 touch ~/.bash_profile
 sed 's/user_name/'"$USER"'/g' bash_template.sh > ~/.bash_profile
 echo source ~/.bash_profile >> ~/.bashrc
+
+sudo apt-get install htop
